@@ -7,9 +7,9 @@ const ComingSoonCard = () => {
       <div className='w-full flex gap-2 animate-pulse'>
         <Image src={hourglass} width={200} height={400} alt='/' />
 
-        <div className='w-full h-full flex justify-center items-center rounded-sm text-4xl md:text-8xl  uppercase CaptainFont leading-none tracking-wider text-teal-400 animate-pulse   '>
+        {/* <div className='w-full h-full flex justify-center items-center rounded-sm text-4xl md:text-8xl  uppercase CaptainFont leading-none tracking-wider text-teal-400 animate-pulse   '>
           More Events Coming Soon...
-        </div>
+        </div> */}
       </div>
     </div>
   );
