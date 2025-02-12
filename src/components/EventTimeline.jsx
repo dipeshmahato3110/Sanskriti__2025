@@ -11,7 +11,7 @@ const EventTimeline = () => {
             <Timeline.Time>
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                31st March, 2024{" "}
+                6th March, 2025{" "}
               </p>
             </Timeline.Time>
             <Timeline.Body>
@@ -41,7 +41,7 @@ const EventTimeline = () => {
               {" "}
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                1st April, 2024{" "}
+                7th April, 2025{" "}
               </p>
             </Timeline.Time>
             <Timeline.Body>
@@ -74,7 +74,7 @@ const EventTimeline = () => {
               {" "}
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                2nd April, 2024{" "}
+                8th April, 2025{" "}
               </p>
             </Timeline.Time>
             <Timeline.Body>
@@ -104,7 +104,7 @@ const EventTimeline = () => {
               {" "}
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                3rd April, 2024{" "}
+                9th April, 2025{" "}
               </p>
             </Timeline.Time>
             <Timeline.Body>
@@ -144,7 +144,7 @@ const EventTimeline = () => {
               {" "}
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                4th April, 2024{" "}
+                10th April, 2025{" "}
               </p>
             </Timeline.Time>
             <Timeline.Body>
@@ -177,7 +177,7 @@ const EventTimeline = () => {
               {" "}
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                5th April, 2024{" "}
+                11th April, 2025{" "}
               </p>
             </Timeline.Time>
 
@@ -208,7 +208,7 @@ const EventTimeline = () => {
               {" "}
               <p className='SanskritiFont text-3xl font-bold text-zinc-300'>
                 {" "}
-                6th April, 2024{" "}
+                12th April, 2025{" "}
               </p>
             </Timeline.Time>
             <Timeline.Body>

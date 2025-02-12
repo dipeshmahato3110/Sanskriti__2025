@@ -14,7 +14,7 @@ const LandingPage = ({ landingPageInfo }) => {
             bg-gradient-to-r bg-clip-text text-transparent 
             from-amber-500 via-orange-500 to-pink-500
             animate-text font-extrabold text-[20vw] md:text-[18vw] z-10 '>
-          Sanskriti <span className='  tracking- text-[8vw] -ml-4'>2024</span>
+          Sanskriti <span className='  tracking- text-[8vw] -ml-4'>2025</span>
         </p>
 
         <p

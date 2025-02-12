@@ -16,7 +16,7 @@ export default function Home({ about, events, sponsors, images, landingPageInfo,
   return (
     <>
       <Head>
-        <title>Sanskriti 2024 - Official Website</title>
+        <title>Sanskriti 2025 - Official Website</title>
         <meta name="description" content="F.E.T.S.U. presents Sanskriti 2023" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -30,9 +30,9 @@ export default function Home({ about, events, sponsors, images, landingPageInfo,
         <section id="about">
           <About about={about} />
         </section>
-        {/* <section>
+        <section>
           <Countdown />
-        </section> */}
+        </section>
         <section id="performance">
           <Performance artist={artist} />
         </section>

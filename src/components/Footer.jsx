@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='text-zinc-200 py-2 text-sm md:text-base'>
-        Copyright © 2024 F.E.T.S.U. - All Rights Reserved.
+        Copyright © 2025 F.E.T.S.U. - All Rights Reserved.
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Countdown = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "March, 30, 2024";
+  const deadline = "March, 30, 2025";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -24,14 +24,14 @@ const Countdown = () => {
   }, []);
   return (
     <div className='timer w-full md:h-screen text-center flex flex-col justify-center items-center overflow-hidden relative'>
-      {/* <div className='max-w-full text-center md:textcenter CaptainFont text-3xl md:text-7xl text-zinc-400 px-10 pb-8 hidden md:inline'>
+      <div className='max-w-full text-center md:textcenter CaptainFont text-3xl md:text-7xl text-zinc-400 px-10 pb-8 hidden md:inline'>
         <span className='SanskritiFont text-6xl md:text-9xl px-4  '>
           Sanskriti
         </span>{" "}
         will be back in
-        <span className=' text-6xl md:text-9xl px-4 '>2024</span>...
-      </div> */}
-      {/* <div className='grid md:grid-cols-4 grid-cols-2 gap-8 text-zinc-400 CaptainFont '>
+        <span className=' text-6xl md:text-9xl px-4 '>2025</span>...
+      </div> 
+       <div className='grid md:grid-cols-4 grid-cols-2 gap-8 text-zinc-400 CaptainFont '>
         <div
           className='border border-zinc-600 border-t-0 border-b-0 flex flex-col justify-center items-center min-w-[8rem] min-h-[12rem]  md:w-[20rem] 
         md:h-[28rem]  bg-gradient-to-b from-transparent via-neutral-800 to-transparent'>
@@ -64,7 +64,7 @@ const Countdown = () => {
             {seconds === 1 ? `second` : `seconds`}
           </p>
         </div>
-  </div> */}
+  </div>
     </div>
   );
 };
