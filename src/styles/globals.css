@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  @layer responsive {
+      .masonry {
+          column-gap: 1rem;
+          column-count: 2;
+      }
+      .masonry-sm {
+          column-gap: 1rem;
+          column-count: 2;
+      }
+      .masonry-md {
+          column-gap: 1rem;
+          column-count: 3;
+      }
+      .masonry-sponsors-md{
+          column-gap: 1rem;
+          column-count: 7;
+      }
+      .masonry-sponsors-sm{
+        column-gap: 1rem;
+        column-count: 4;
+    }
+      .break-inside {
+          break-inside: avoid;
+      }
+
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@font-face {
+  font-family:"Samarkan" ;
+  src: url("../../public/fonts/samarkan/SAMAN___.TTF");
+}
+@font-face {
+  font-family:"Captain" ;
+  src: url("../../public/fonts/american-captain-font/AmericanCaptain-MdEY.otf");
+}
+@font-face {
+  font-family:"Progress" ;
+  src: url("../../public/fonts/progress-font/ProgressPersonalUse-EaJdz.ttf");
+}
+
+@font-face {
+  font-family:"HighJump" ;
+  src: url("../../public/fonts/higher-jump/Higher\ Jump.ttf");
+}
+
+html{
+  scroll-behavior: smooth !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium !important;
+  overflow-x: hidden; 
+  height: 100%; 
+  
+}
+body{
+  scroll-behavior: smooth !important;
+  padding: 0;
+  margin: 0;
+  font-size: medium !important;
+  background: #1A1A1D;
+  min-height: 100%;
+  display: grid;
+  grid:auto / 1em fr 1em;
+ 
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10rem;
+  background: #1A1A1D;
+}
+body::-webkit-scrollbar-track {
+  background: #1A1A1D;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: #C3073F;
+  border-radius: 2rem;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #950740;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:focus{
+  outline: none;
+}
+i{
+  cursor: pointer;
+}
+.SanskritiFont{ 
+  font-family: 'Samarkan';
+}
+.CaptainFont{ 
+  font-family: 'Captain';
+}
+.ProgressFont{ 
+  font-family: 'Progress';
+}
+.HighJumpFont{
+  font-family: "HighJump";
+}
+.BengaliFont{
+  font-family: 'Noto Serif Bengali', serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+  
+  li {
+    @apply cursor-pointer
+  }
+  
+}
+
+@import url("./navbar.css");
